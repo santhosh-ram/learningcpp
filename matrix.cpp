@@ -27,4 +27,5 @@ int main()
             cout << m1[i][j]*m2[a-i-1][j] << " ";
         }
     }
+    return 0;
 }
