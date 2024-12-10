@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 int main()
 {
     int N = 11011;
@@ -10,6 +11,6 @@ int main()
         a = a * 2;
     }
 
-    printf("%d", ans);
+    cout << ans;
     return 0;
 }
